@@ -1,0 +1,28 @@
+step1:- create account in git-hub
+
+step2:- create repo in a git-hub
+
+    https://github.com/Teju0717/training.git
+
+step3:- open vs code and open terminal in vs code
+
+step4:- initilizate git in a terminal
+    git initilizate
+
+step5:- configure user-name and email to github
+
+git config --global user.name "Teju0717"
+git config --global user.gmail "2211cs010233@mallareddyuniversity.ac.in"
+
+step6:- add remote url to local repo
+
+git remote add origin https://github.com/Teju0717/training.git
+
+step7:- convert untracked files to tracked files
+
+git add .
+
+git commit -m "any message"
+
+step8:- push to github
+    git push -u origin master
